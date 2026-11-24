@@ -12,6 +12,13 @@ Walk the denominations largest-first, taking each as many times as it fits. The 
 
 **Complexity:** O(amount/largest + k) effectively; output-sized space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
